@@ -1,0 +1,16 @@
+{
+  "name": "img-renaming",
+  "description": "Images rename utility",
+  "version": "0.0.1",
+  "main": "index.js",
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  },
+  "dependencies": {
+      "commander": "= 2.1.x"
+  },
+  "scripts": {
+    "test": "mocha --no-colors --reporter spec"
+  }
+}
